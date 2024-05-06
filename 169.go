@@ -9,18 +9,15 @@ package main
 // Input: nums = [2,2,1,1,1,2,2]
 // Output: 2
 func majorityElement(nums []int) int {
-	maxIndex := 0
 	countMap := make(map[int]int)
-	for i := 0; i < len(nums); i++ {
-		countMap[nums[i]] += 1
-	}
-	tmp := 0
-	for i, v := range countMap {
-		if v > tmp {
-			tmp = v
-			maxIndex = i
-		}
+	for _, v := range nums {
+		countMap[v] += 1
 	}
 
-	return maxIndex
+	for i, c := range countMap {
+		if c > len(nums)/2 {
+			return i
+		}
+	}
+	return -1
 }

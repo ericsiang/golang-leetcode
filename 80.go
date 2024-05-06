@@ -18,7 +18,8 @@ func removeDuplicates2(nums []int) int {
         }
     }
 
-    return p + 1
+    return p
+	// i = 0
     // for j := 0; j < len(nums); j++ {
     //     if i < 2 || nums[j] != nums[i-2] {
     //         nums[i] = nums[j]
@@ -26,9 +27,10 @@ func removeDuplicates2(nums []int) int {
     //     }
     // }
     // return i
+	// j j j j j j j j j
+	// 0,0,1,1,2,3,3,3,3
+	// i i i i i i i i i
 
-
-	
 	// p := 1
 	// c := 1
 	// for i := 1; i < len(nums); i++ {

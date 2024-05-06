@@ -25,6 +25,7 @@ func main() {
 	// nums80 := []int{1,1,1,2,2,3}
 	// k := removeDuplicates2(nums80)
 	// fmt.Println("k : ", k)
+
 	//88.
 	// nums88 := []int{1, 2, 3, 0, 0, 0}
 	// m := 3
@@ -33,6 +34,10 @@ func main() {
 	// merge(nums88, m, nums88_1, n)
 	// fmt.Println(nums88)
 
+	//189
+	// nums189 := []int{1,2,3,4,5,6,7}
+	// rotate(nums189,3)
+	// fmt.Println(nums189)
 
 	//217.
 	// nums := []int{1, 2, 3, 1}
