@@ -8,6 +8,12 @@ func main() {
 	// nums := []int{3,2,4}
 	// fmt.Println(twoSum(nums,6))
 
+	//13
+	s := "III"
+	// s := "LVIII"
+	// s := "MCMXCIV"
+	c :=romanToInt(s)
+	fmt.Println(c)
 	//27.
 	// nums27 := []int{3,2,2,3}
 	// nums27_1 := []int{0,1,2,2,3,0,4,2}
@@ -20,6 +26,11 @@ func main() {
 	// fmt.Println("nums26 : ", nums26)
 	// k := removeDuplicates(nums26)
 	// fmt.Println("k : ", k)
+
+	//42
+	// nums42 := []int{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1}
+	// res := trap(nums42)
+	// fmt.Println(res)
 
 	//45
 	// nums45 := []int{2, 3, 1, 1, 4}
@@ -38,6 +49,11 @@ func main() {
 	// n := 3
 	// merge(nums88, m, nums88_1, n)
 	// fmt.Println(nums88)
+
+	//135
+	// nums135 := []int{1,2,2}
+	// t :=candy(nums135)
+	// fmt.Println(t)
 
 	//189
 	// nums189 := []int{1,2,3,4,5,6,7}
@@ -65,5 +81,8 @@ func main() {
 	// fmt.Printf("[null,%b,%b,%b,%d,%b,%b,%d]",b,b2,b3,r,b4,b5,r2)
 	// fmt.Println()
 
-	// 
+	// 238
+	// nums238:=[]int{1,2,3,4}
+	// productExceptSelf(nums238)
+
 }
