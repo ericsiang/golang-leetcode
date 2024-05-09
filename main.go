@@ -8,12 +8,26 @@ func main() {
 	// nums := []int{3,2,4}
 	// fmt.Println(twoSum(nums,6))
 
+	//12
+	// num12 := 3749
+	// num12 := 58
+	// num12 := 1994
+	// roman :=intToRoman(num12)
+	// fmt.Println(roman)
+
 	//13
-	s := "III"
+	// s := "III"
 	// s := "LVIII"
 	// s := "MCMXCIV"
-	c :=romanToInt(s)
-	fmt.Println(c)
+	// c :=romanToInt(s)
+	// fmt.Println(c)
+
+	//14
+	// strs14 := []string{"flower","flow","flowht"}
+	// strs14 := []string{"dog","racecar","car"}
+	// s :=longestCommonPrefix(strs14)
+	// fmt.Println(s)
+
 	//27.
 	// nums27 := []int{3,2,2,3}
 	// nums27_1 := []int{0,1,2,2,3,0,4,2}
@@ -37,6 +51,12 @@ func main() {
 	// k := jump(nums45)
 	// fmt.Println("k:", k)
 
+	//58
+	// s58 := "Hello World"
+	// s58 := "   fly me   to   the moon  "
+	// leng := lengthOfLastWord(s58)
+	// fmt.Println(leng)
+
 	//80
 	// nums80 := []int{1,1,1,2,2,3}
 	// k := removeDuplicates2(nums80)
@@ -54,6 +74,12 @@ func main() {
 	// nums135 := []int{1,2,2}
 	// t :=candy(nums135)
 	// fmt.Println(t)
+
+	//151
+	// s151 := "the sky is blue"
+	s151 := "  hello world  "
+	newS :=reverseWords(s151)
+	fmt.Println(newS)
 
 	//189
 	// nums189 := []int{1,2,3,4,5,6,7}
