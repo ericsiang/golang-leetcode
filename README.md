@@ -9,7 +9,7 @@ golang-leetcode
 | 數組/字符串                             | 參考                                                                                                                                                                   |
 | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1 - 两数之和                            | [Two Sum](https://books.halfrost.com/leetcode/ChapterFour/0001~0099/0001.Two-Sum/)                                                                                     |
-| 3 - Z 字形变换                          | [Zigzag Conversion](https://www.bilibili.com/video/BV1iv4y1Z7M9/?spm_id_from=333.337.search-card.all.click&vd_source=7d74b80bae6074ef0a159bd1d64cf179)                 |
+| 6 - Z 字形变换                          | [Zigzag Conversion](https://www.bilibili.com/video/BV1iv4y1Z7M9/?spm_id_from=333.337.search-card.all.click&vd_source=7d74b80bae6074ef0a159bd1d64cf179)                 |
 | 12 - 整数转罗马数字                     | [Integer to Roman](https://www.bilibili.com/video/BV1Bk4y1y7YN/?spm_id_from=333.337.search-card.all.click&vd_source=7d74b80bae6074ef0a159bd1d64cf179)                  |  |
 | 13 - 罗马数字转整数                     | [Roman to Integer]                                                                                                                                                     |
 | 14 - 最长公共前缀                       | [Longest Common Prefix](https://www.bilibili.com/video/BV1MF411L7Md/?spm_id_from=333.337.search-card.all.click&vd_source=7d74b80bae6074ef0a159bd1d64cf179)             |
