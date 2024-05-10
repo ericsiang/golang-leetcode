@@ -8,6 +8,14 @@ func main() {
 	// nums := []int{3,2,4}
 	// fmt.Println(twoSum(nums,6))
 
+	//3
+	// s3 := "PAYPALISHIRING"
+	// numRows3 := 3
+	// s3 = "PAYPALISHIRING"
+	// numRows3 = 4
+	// s :=convert(s3,numRows3)
+	// fmt.Println(s)
+
 	//12
 	// num12 := 3749
 	// num12 := 58
@@ -28,18 +36,27 @@ func main() {
 	// s :=longestCommonPrefix(strs14)
 	// fmt.Println(s)
 
-	//27.
-	// nums27 := []int{3,2,2,3}
-	// nums27_1 := []int{0,1,2,2,3,0,4,2}
-
-	// removeElement(nums27,2)
-	// fmt.Println(nums27)
-
 	//26.
 	// nums26 := []int{1, 1, 2}
 	// fmt.Println("nums26 : ", nums26)
 	// k := removeDuplicates(nums26)
 	// fmt.Println("k : ", k)
+
+	//27.
+	// nums27 := []int{3,2,2,3}
+	// nums27_1 := []int{0,1,2,2,3,0,4,2}
+	// removeElement(nums27,2)
+	// fmt.Println(nums27)
+
+	//28
+	// haystack := "sadbutsad"
+	// needle := "sad"
+	// haystack = "leetcode"
+	// needle = "leeto"
+	// haystack = "hello"
+	// needle = "ll"
+	// n := strStr(haystack, needle)
+	// fmt.Println(n)
 
 	//42
 	// nums42 := []int{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1}
@@ -57,6 +74,16 @@ func main() {
 	// leng := lengthOfLastWord(s58)
 	// fmt.Println(leng)
 
+	//68
+	words58 := []string{"This", "is", "an", "example", "of", "text", "justification."}
+	maxWidth58 := 16
+	res := fullJustify(words58,maxWidth58)
+	fmt.Println(res)
+	for i, v := range res {
+		fmt.Println(i,v)
+		
+	}
+	
 	//80
 	// nums80 := []int{1,1,1,2,2,3}
 	// k := removeDuplicates2(nums80)
@@ -77,9 +104,9 @@ func main() {
 
 	//151
 	// s151 := "the sky is blue"
-	s151 := "  hello world  "
-	newS :=reverseWords(s151)
-	fmt.Println(newS)
+	// s151 := "  hello world  "
+	// newS :=reverseWords(s151)
+	// fmt.Println(newS)
 
 	//189
 	// nums189 := []int{1,2,3,4,5,6,7}
